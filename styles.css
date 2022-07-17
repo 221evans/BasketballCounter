@@ -1,0 +1,30 @@
+@font-face {
+  font-family: cursed;
+  src: url(./Fonts/CursedTimerULiL.ttf);
+}
+
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.timer {
+  font-family: cursed;
+  color: #F94F6D;
+  font-size: 90px;
+  border: 1px black solid; 
+  background-color: black;
+  width: 155px;
+  height: 120px;
+}
+
+.left-box {
+  display: flex;
+  justify-content: center;
+}
