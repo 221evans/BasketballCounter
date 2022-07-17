@@ -1,6 +1,3 @@
-let btnElOne = document.getElementById("btn1");
-let btnElTwo = document.getElementById("btn2");
-let btnElThree = document.getElementById("btn3");
 
 let homeScoreEl = document.getElementById("home-score");
 let guestScoreEl = document.getElementById("guest-score");
@@ -36,5 +33,15 @@ function addTwoGuest() {
 
 function addThreeGuest() {
   guestScore += 3;
+  guestScoreEl.textContent = guestScore;
+}
+
+function resetHome() {
+  homeScore = 0;
+  homeScoreEl.textContent = homeScore;
+}
+
+function resetGuest() {
+  guestScore = 0;
   guestScoreEl.textContent = guestScore;
 }

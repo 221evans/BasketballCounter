@@ -68,3 +68,9 @@ body {
 .btn-border:hover {
   background-color: white;
 }
+
+.reset-score {
+  border-radius: 20px;
+  background-color: red;
+  color: #EEEEEE;
+}
