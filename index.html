@@ -14,13 +14,23 @@
         <h3 class="scorecard">HOME</h3>
         
           <div class="box">
-            <p class="timer">0</p>
+            <p class="timer" id="home-score">0</p>
+              <div class="add-score">
+                <p class="btn-border" id="btn1" onclick="addOneHome()">+1</p>
+                <p class="btn-border" id="btn2" onclick="addTwoHome()">+2</p>
+                <p class="btn-border" id="btn3" onclick="addThreeHome()">+3</p>
+            </div>
           </div>
     </div>
     <div>
         <h3 class="scorecard">GUEST</h3>
         <div class="box">
-          <p class="timer" id="right-box">0</p>
+          <p class="timer" id="guest-score">0</p>
+            <div class="add-score">
+              <p class="btn-border" id="btn1" onclick="addOneGuest()">+1</p>
+              <p class="btn-border" id="btn2" onclick="addTwoGuest()">+2</p>
+              <p class="btn-border" id="btn3" onclick="addThreeGuest()">+3</p>
+          </div>
         </div> 
 
 

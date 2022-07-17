@@ -41,5 +41,30 @@ body {
   border-radius: 5px;
   width: 155px;
   height: 120px;
-  margin-top: -100px;
+  margin-top: -80px;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+.btn-border {
+  text-align: center;
+  display: flex;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  color: #9AABD8;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-top: -80px;
+}
+
+.btn-border:hover {
+  background-color: white;
 }
