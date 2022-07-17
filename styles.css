@@ -6,26 +6,40 @@
 
 body {
   margin: 0;
+  background-color: #1B244A;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
+  text-align: center;
  
   
+  
+}
+
+.scorecard {
+  height: 36px;
+  width: 150px;
+  color: #EEEEEE;
+ 
 }
 
 .timer {
   font-family: cursed;
   color: #F94F6D;
   font-size: 90px;
-  border: 1px black solid; 
-  background-color: black;
-  width: 155px;
-  height: 120px;
+  padding: auto;
+  text-align: center;
+  padding: 20px;
+  
+  
 }
 
-.left-box {
-  display: flex;
-  justify-content: center;
+.box {
+  background-color: black;
+  border-radius: 5px;
+  width: 155px;
+  height: 120px;
+  margin-top: -100px;
 }
